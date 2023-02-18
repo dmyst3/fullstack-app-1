@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
   
-  Detect-Frameoworks:
+  Detect-Frameworks:
       needs: App-Checkout
       runs-on: ubuntu-latest
       steps:
