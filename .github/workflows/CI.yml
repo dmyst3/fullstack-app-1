@@ -8,9 +8,12 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  App-Checkout:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      
+  
+  Detect-Frameoworks:
+      runs-on: ubuntu-latest
+      steps:
       - uses: dmyst3/actions-framework-detetcor@main
