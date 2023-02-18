@@ -12,9 +12,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-  
-  Detect-Frameworks:
-      needs: App-Checkout
-      runs-on: ubuntu-latest
-      steps:
       - uses: dmyst3/actions-framework-detector@main
